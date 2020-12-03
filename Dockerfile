@@ -66,7 +66,7 @@ RUN pip install \
 # [Optional] Set the default user. Omit if you want to keep the default as root.
 #USER $USERNAME
 
-WORKDIR /home/$USERNAME
+WORKDIR /home/
 COPY code/ .
 
 #CMD ["bash"]
